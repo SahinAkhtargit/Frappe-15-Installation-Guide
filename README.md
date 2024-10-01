@@ -3,8 +3,6 @@ A complete Guide to Install Frappe/ERPNext version 15  in Ubuntu 22.04 LTS
 
 #### Refer this for default python 3.11 setup
 
-- [D-codeE Video Tutorial](https://youtu.be/TReR0I0O1Xo)
-
 ### Pre-requisites 
 
       Python 3.11+
@@ -187,11 +185,11 @@ Now press (Ctrl-X) to exit
     
 ### STEP 14 create a site in frappe bench 
     
-    bench new-site dcode.com
+    bench new-site local.com
     
-    bench --site dcode.com add-to-hosts
+    bench --site local.com add-to-hosts
 
-Open url http://dcode.com:8000 to login 
+Open url http://local.com:8000 to login 
 
 
 ### STEP 15 install ERPNext latest version in bench & site
@@ -201,7 +199,7 @@ Open url http://dcode.com:8000 to login
     ###OR
     bench get-app https://github.com/frappe/erpnext --branch version-15
 
-    bench --site dcode.com install-app erpnext
+    bench --site local.com install-app erpnext
     
     bench start
     
