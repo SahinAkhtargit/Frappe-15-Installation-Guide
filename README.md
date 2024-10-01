@@ -1,8 +1,6 @@
 # Frappe-ERPNext Version-15 in Ubuntu 22.04 LTS
 A complete Guide to Install Frappe/ERPNext version 15  in Ubuntu 22.04 LTS
 
-#### Refer this for default python 3.11 setup
-
 ### Pre-requisites 
 
       Python 3.11+
